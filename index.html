@@ -2,52 +2,170 @@
 <html>
 <head>
     <title>My Personal Webpage</title>
+<style>
+	body {
+		background-color: powderblue;
+		font-family: Arial;
+		color: black;
+		text-align: center;
+		}
+	header {
+		background-color: tomato;
+		color: white;
+		text-align: center;
+		padding: 20px;
+		}
+	h1 {
+		color: navy;
+		font_size: 36px;
+		}
+	p {
+		font-size:18px;
+		}
+	img {
+		width: 200px;
+		height: 125px;
+		border-radius: 50%;
+		border: 3px solid green;
+		margin-top: 10px;
+		}
+	.table-style1 {
+		width: 80%;
+		margin: 20px auto;
+		border: 2px solid navy;
+		}
+	.table-style1 th, .table-style1 td {
+		border: 1px solid navy;
+		padding: 10px;
+		text-alighn: center;
+		}
+	.table-style1 th {
+		background-color: lightblue;
+		}
+	.table-style2 {
+		width: 60%;
+		margin: 20px auto;
+		border-collapse: collapse;
+		border: 2px solid darkgreen;
+		}
+	.table-style2 th, .table-style2 td {
+		border: 1px solid darkgreen;
+		padding: 10px;
+		text-align: center;
+		}
+	.table-style2 th {
+		background-color: lightgreen;
+		}
+	
+		
+	.about {
+		width:60%;
+		margin: 20px auto;
+		text-align: left;
+		}
+	div.mycontainer {
+		width:66%;
+		overflow:auto;
+		}
+	div.mycontainer div {
+		width:50%;
+		float:left;
+		}
+	.video {
+		width: 40%;
+		margin: 10px auto;
+		text-align: center;
+		border: 3px solid green;
+		}
+	.list-style1 {
+		list-style-type: square;
+		color: darkblue;
+		text-align: left;
+		margin: 20px;
+		}
+	.list-style2 {
+		list-style-type: circle;
+		color: darkgreen;
+		text-align: left;
+		margin: 20px;
+		}
+
+	
+
+	
+	
+	
+
+	
+		
+</style>
+</title>
 </head>
 <body>
 <header>
     <h1>Welcome to My Personal Webpage</h1>
     <p>This is a simple example of an HTML and CSS personal webpage.</p>
     <pre>
-    Name: John Doe
-    Age: 25
+    Name: Christina C
+    Age: 39
     Location: Kansas City
     </pre>
 </header>
-<section>
+<section class="about">
     <p>Check out my favorite website:
-<a href="https://www.npr.org/&quot; target="_blank">National Public Radio</a>
+<a href="https://www.npr.org/" target="_blank">National Public Radio</a>
     </p>
 <a href="czavos@mokangoodwill.org" target="_blank">czavos@mokangoodwill.org</a>
     <a href="link to a webpage" target="_blank">
         <img src="hyperlink address for picture" alt="Sample Image"></a>
 </section>
+<h2>My Hobbies</h2>
+<table>
+<tr>
+<th>Hobby</th>
+<th>2/14</th>
+</tr>
+<tr>
+<td>Video Games</td>
+<td>17:00</td>
+<tr/>
+<tr>
+<td>Watching Movies</td>
+<td>19:00</td>
+</tr>
+<tr>
+</table>
 <hr>
+<div class = "mycontainer">
+<div>
 <h2>My Favorite Foods</h2>
-<ul>
+<ul class="list-style1">
 <li>Bacon</li>
 <li>Cashew chicken</li>
 <li>Beef and broccoli</li>
 </ul>
-
+</div>
+<div>
 <h2>My Favorite Drinks</h2>
-<ul>
+<ul class="list-style2">
 <li>Coca Cola</li>
 <li>Water</li>
 <li>Alcohol</li>
 </ul>
-<section>
+</div>
+</div>
+<section class= "video">
 <h2>My Favorite Video</h2>
 <video width="480" height="360" controls>
-<source src="https://github.com/Ccothon/Christina/blob/main/Download.mp4?raw=true">
+<source src="https://github.com/Ccothon/Christina/blob/main/Download.mp4?raw=True">
 Your browser does not support th video tag.
 </video>
 </section>
 <h2>Embedded Website</h2>
-<iframe src="https://github.com/Ccothon/Christina/blob/main/Download.mp4?raw=true">
+<iframe src="https://github.com/Ccothon/Christina/blob/main/Download.mp4?raw=True">
 "width="600" height="400" style="border: none;"></iframe>
 </section>
 </body>
 </html>
-
 
 
